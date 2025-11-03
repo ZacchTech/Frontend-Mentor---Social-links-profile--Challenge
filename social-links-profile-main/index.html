@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-color: hsl(0, 0%, 8%);
+        max-width: 375px;
+        margin: auto;
+      }
+
+      @media (min-width: 1440px) {
+        body {
+          max-width: 1440px;
+          margin: auto;
+        }
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 370px;
+        background-color: red;
+        justify-content: center;
+        justify-self: center;
+        margin-top: 100px;
+        margin-bottom: 90px;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 12%);
+        font-family: "Inter", sans-serif;
+        cursor: pointer;
+        padding-bottom: 10px;
+      }
+
+      img {
+        position: relative;
+        left: 60px;
+        width: 100px;
+        height: 100px;
+        margin-top: 40px;
+        border-radius: 50%;
+        justify-self: center;
+        padding-bottom: 10px;
+      }
+
+      h1 {
+        position: relative;
+        top: 90px;
+        left: -55px;
+        align-content: center;
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-size: 25px;
+      }
+
+      h4 {
+        align-content: center;
+        color: hsl(75, 94%, 57%);
+        margin-top: 50px;
+        font-weight: 600;
+      }
+      p {
+        align-content: center;
+        color: hsl(0, 0%, 100%);
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+      .but {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        gap: 15px;
+        padding-bottom: 20px;
+      }
+      button {
+        height: 45px;
+        border-radius: 10px;
+        border: none;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 20%);
+        font-size: 16px;
+        text-align: left;
+        padding-left: 110px;
+        font-family: "Inter", sans-serif;
+        cursor: pointer;
+      }
+
+      button a {
+        color: hsl(0, 0%, 100%);
+        text-decoration: none;
+      }
+
+      button:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+      }
+
+      button a:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+      }
+      .attribution a {
+        color: hsl(75, 94%, 57%);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <main>
+    <body>
+      <div class="container">
+        <img src="./assets/images/zacchimage.png" alt="zacch logo" />
+        <h1>Zacch Tech</h1>
+        <h4>Remote, Developer</h4>
+        <p>"Front-end developer and Book Author."</p>
+
+        <div class="but">
+          <button type="button">
+            <a
+              href="https://github.com/ZacchTech"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </button>
+          <button type="button">
+            <a
+              href="https://www.frontendmentor.io/profile/ZacchTech"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Frontend Mentor</a
+            >
+          </button>
+          <button type="button">LinkedIn</button>
+          <button type="button">
+            <a
+              href="https://x.com/ZacchTech"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+          </button>
+          <button type="button">
+            <a
+              href="https://author.amazon.co.uk/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Amazon KDP</a
+            >
+          </button>
+        </div>
+
+        <div class="attribution">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/profile/ZacchTech"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/ZacchTech">Zacch Tech</a>.
+        </div>
+      </div>
+    </body>
+  </main>
+</html>
