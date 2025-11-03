@@ -91,6 +91,24 @@
         gap: 15px;
         padding-bottom: 20px;
       }
+
+      .btn {
+        display: block;
+        text-align: center;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        transition: 0.3s;
+      }
+      .btn:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+      }
+
       button {
         height: 45px;
         border-radius: 10px;
@@ -130,8 +148,8 @@
       }
     </style>
   </head>
-  <main>
-    <body>
+  <body>
+    <main>
       <div class="container">
         <img src="./assets/images/zacchimage.png" alt="zacch logo" />
         <h1>Zacch Tech</h1>
@@ -139,39 +157,43 @@
         <p>"Front-end developer and Book Author."</p>
 
         <div class="but">
-          <button type="button">
-            <a
-              href="https://github.com/ZacchTech"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub</a
-            >
-          </button>
-          <button type="button">
-            <a
-              href="https://www.frontendmentor.io/profile/ZacchTech"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Frontend Mentor</a
-            >
-          </button>
-          <button type="button">LinkedIn</button>
-          <button type="button">
-            <a
-              href="https://x.com/ZacchTech"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Twitter</a
-            >
-          </button>
-          <button type="button">
-            <a
-              href="https://author.amazon.co.uk/home"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Amazon KDP</a
-            >
-          </button>
+          <a
+            href="https://github.com/ZacchTech"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >GitHub</a
+          >
+
+          <a
+            href="https://www.frontendmentor.io/profile/ZacchTech"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >Frontend Mentor</a
+          >
+
+          <a
+            href="https://frontend-mentor-social-links-profil-chi.vercel.app/"
+            class="btn"
+            >Linkedin</a
+          >
+
+          <a
+            href="https://x.com/ZacchTech"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >Twitter</a
+          >
+
+          <a
+            href="https://author.amazon.co.uk/home"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >Amazon KDP</a
+          >
         </div>
 
         <div class="attribution">
@@ -183,6 +205,6 @@
           >. Coded by <a href="https://github.com/ZacchTech">Zacch Tech</a>.
         </div>
       </div>
-    </body>
-  </main>
+    </main>
+  </body>
 </html>
